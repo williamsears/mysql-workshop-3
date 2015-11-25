@@ -1,0 +1,2 @@
+select firstName from Entry join AddressBook on AddressBook.id=Entry.firstName;
+Empty set (0.01 sec)
