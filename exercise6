@@ -1,0 +1,12 @@
+mysql> select content from Phone JOIN Entry on Entry.id=Phone.entryId where Entry.firstName="Charlotte" AND Entry.lastName="Jenkins";                          
++----------------+
+| content        |
++----------------+
+| (110) 167-3420 |
+| (605) 175-1334 |
+| (110) 167-3420 |
+| (605) 175-1334 |
+| (110) 167-3420 |
+| (605) 175-1334 |
++----------------+
+6 rows in set (0.02 sec)
