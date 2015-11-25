@@ -1,0 +1,47 @@
+select firstName, lastName from Entry where monthName(birthday) != "february" and hour(birthday) between '20:00:00' and '21:00:00';
+
+
+| Nelle       | Crane       |
+| Uriah       | Herring     |
+| Leigh       | Hutchinson  |
+| Rae         | Stanton     |
+| Summer      | Tate        |
+| Matthew     | Rodriguez   |
+| Joy         | Sullivan    |
+| Amela       | Bell        |
+| Jayme       | Payne       |
+| Adrian      | Melton      |
+| Cassidy     | Watkins     |
+| Nolan       | Santos      |
+| Zane        | Olsen       |
+| Charles     | Kirk        |
+| Katell      | Tanner      |
+| Rinah       | Stout       |
+| Bell        | Dickson     |
+| Brent       | Lee         |
+| Hillary     | Hebert      |
+| Meghan      | Lancaster   |
+| Jessica     | Simpson     |
+| Genevieve   | Booth       |
+| Connor      | Bruce       |
+| Griffin     | Cole        |
+| Ulysses     | Jimenez     |
+| Marvin      | Rosario     |
+| Aurora      | Santiago    |
+| Victor      | Greer       |
+| Thor        | Gomez       |
+| Rhoda       | Mcleod      |
+| Marcia      | Simmons     |
+| Kyle        | Blake       |
+| Ethan       | Mccray      |
+| Nathaniel   | Craft       |
+| Baxter      | Oneal       |
+| Ivor        | Powers      |
+| Briar       | Small       |
+| Jayme       | Cleveland   |
+| Rhoda       | Molina      |
+| Nathaniel   | Warren      |
+| Leah        | Donaldson   |
+| Calista     | Rocha       |
++-------------+-------------+
+1452 rows in set, 33690 warnings (0.02 sec)
