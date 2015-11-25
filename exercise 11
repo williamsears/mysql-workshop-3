@@ -1,0 +1,65 @@
+
+mysql> select city from Address where Address.country="Canada" OR Address.country="Austria" OR Address.country="Isle of Man" OR Address.country="Ireland" OR Address.country="Japan";
++----------------+
+| city           |
++----------------+
+| Dubbo          |
+| Ceyhan         |
+| Jackson        |
+| Belfast        |
+| Tauranga       |
+| Rzeszów        |
+| Cartago        |
+| Cagnes-sur-Mer |
+| Ceyhan         |
+| Houston        |
+| Galway         |
+| Pietraroja     |
+| Moulins        |
+| Anápolis       |
+| Assen          |
+| Shimla         |
+| ?slahiye       |
+| Kailua         |
+| Edmundston     |
+| Satara         |
+| Angers         |
+| Siedlce        |
+| Chestermere    |
+| Tirrases       |
+| Zwickau        |
+| Belfast        |
+| Horsham        |
+| Chartres       |
+| Rollegem       |
+| Kraków         |
+| Bremerhaven    |
+| Milena         |
+| Cork           |
+| Bozeman        |
+| Pontevedra     |
+| Bodmin         |
+| Ogbomosho      |
+| Denderbelle    |
+| Baulers        |
+| San Vicente    |
+| Alness         |
+| Springfield    |
+| Abbeville      |
+| San Francisco  |
+| Lasnigo        |
+| Nagaon         |
+| Terneuzen      |
+| Raj Nandgaon   |
+| Meridian       |
+| Mabompr?       |
+| Calmar         |
+| Hamburg        |
+| Quesada        |
+| Pabianice      |
+| Dover          |
+| Vienna         |
+| Berlin         |
+| Hillsboro      |
++----------------+
+58 rows in set (0.00 sec)
